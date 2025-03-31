@@ -134,14 +134,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-03-31T08:46:32.398785-04:00"
+						"dateAndTimeString" : "2025-03-31T08:46:33.079133-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "OJBGWHrtDQC08r9NBjHszQ=="
 				},
-				"code" : "dbName := (LeDatabasesRegistry uniqueInstance defaultLogicalDatabase databases detect: [:i | i databaseName includesSubstring: 'GtDbU']) databaseName.\r\rGtHomeCard lepiterBaseWithTableOfContents\r\t\ttitle: 'GtDb usql Home Card';\r\t\tdescription: 'Explore GtDb usql knowledge base';\r\t\tpriority: 1;\r\t\tdatabaseName: dbName;\r\t\trecentlyEditedPage;\r\t\teditableToolbar;\r\t\tdetails: [ :db | \r\t\t\t| snippets somePages |\r\t\t\tsomePages := db pages select: #shouldAppearInIndexOrDailyNotes.\r\t\t\tsnippets := somePages flatCollect: #allChildrenDepthFirst.\r\t\t\t'Your local knowledge base includes '\r\t\t\t\t, somePages size asString , ' pages containing '\r\t\t\t\t, snippets size asString , ' snippets of '\r\t\t\t\t, (snippets groupedBy: #class) size asString , ' different kinds.' ]\r\t\t\t\tyourself"
+				"code" : "dbName := (LeDatabasesRegistry uniqueInstance defaultLogicalDatabase databases detect: [:i | i databaseName includesSubstring: 'GtDbUsql']) databaseName.\r\rGtHomeCard lepiterBaseWithTableOfContents\r\t\ttitle: 'GtDb usql Home Card';\r\t\tdescription: 'Explore GtDb usql knowledge base';\r\t\tpriority: 1;\r\t\tdatabaseName: dbName;\r\t\trecentlyEditedPage;\r\t\teditableToolbar;\r\t\tdetails: [ :db | \r\t\t\t| snippets somePages |\r\t\t\tsomePages := db pages select: #shouldAppearInIndexOrDailyNotes.\r\t\t\tsnippets := somePages flatCollect: #allChildrenDepthFirst.\r\t\t\t'Your local knowledge base includes '\r\t\t\t\t, somePages size asString , ' pages containing '\r\t\t\t\t, snippets size asString , ' snippets of '\r\t\t\t\t, (snippets groupedBy: #class) size asString , ' different kinds.' ]\r\t\t\t\tyourself"
 			},
 			{
 				"__type" : "textSnippet",
