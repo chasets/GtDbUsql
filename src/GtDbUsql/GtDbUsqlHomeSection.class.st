@@ -15,7 +15,7 @@ GtDbUsqlHomeSection >> gtUsedKnowledgeBaseCard [
 	<gtExample>
 	<noTest>
 	| dbName |
-	dbName := (LeDatabasesRegistry downloadedData defaultLogicalDatabase databases detect: [:i | i databaseName includesSubstring: 'GtDbUsql']) databaseName.
+	dbName := (LeDatabasesRegistry  defaultLogicalDatabase databases detect: [:i | i databaseName includesSubstring: 'GtDbUsql']) databaseName.
 	^ GtHomeCard lepiterBaseWithTableOfContents
 		title: 'GtDb usql Home Card';
 		description: 'Explore GtDb usql knowledge base';
