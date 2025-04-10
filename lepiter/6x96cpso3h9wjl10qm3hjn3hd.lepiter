@@ -609,14 +609,48 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-04-10T12:40:31.985933-04:00"
+									"dateAndTimeString" : "2025-04-10T13:18:45.024533-04:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "GKYu+9DuDQCgnmFtAvyxRw=="
 							},
-							"code" : ""
+							"code" : "dbConfig := GtDbUsqlConfig new.\rGtDbUsqlScriptProcess new databaseConfig: dbConfig; exec: '/usr/local/bin/usql sqlite://:memory: --command ''select 1'''; resultsOutput"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-10T13:18:45.509358-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-10T13:19:28.449256-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Owvjg9HuDQChEWIvALDm7Q=="
+							},
+							"code" : "\"we can also get more structured output\"\rGtDbUsqlScriptProcess new databaseConfig: dbConfig; exec: '/usr/local/bin/usql sqlite://:memory: --json --quiet --command ''select 1'''; resultsOutput"
 						}
 					]
 				},
