@@ -1,0 +1,748 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-10T09:28:46.381723-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-10T09:31:13.704786-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "txJlTc7uDQCs/Dp7BbK9og=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "The best way to learn GT as a database person is to watch videos like [Exploring the GitHub REST API in 7'](https://www.youtube.com/watch?v=-vFwfwy5WZA&list=PLfrs5bwLJOoAaHvQGSLeKpHWmFuZXPUTJ&index=6&t=17s&ab_channel=GlamorousToolkit) and the older (and longer) [HGGW #20: Exploring a REST API with Glamorous Toolkit (David Reyes & Tudor Girba)](https://www.youtube.com/watch?v=KqnLPgTA2DQ&list=PLfrs5bwLJOoBtfhXJ4mqcQ4ktpQOEBTvP&index=4&t=58s&ab_channel=GlamorousToolkit)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-10T09:31:16.084859-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-10T09:35:29.887755-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "nFhRVs7uDQCvfEAEBbK9og=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Once you get those under your belt (by which I mean watching them many times) and working through the relevant sections of the book, you can being to get a lot out of other GT videos and other parts of the book. You begin to realize that once the source data is wrangled into a parsable format (JSON, XML, anything parsable), then the GT ecosystem applies to **all** data. The data could have started life in a database, in an API, in a source code repository. All of that is incidental to applying your knowledge of the **problem domain** to create tools specific to the problem. "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-10T09:35:36.993485-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-10T09:47:22.081443-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "kX3eZc7uDQC3CD88D4l6MA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "I spent a long time trying to follow the pattern of the modern Pharo database drivers like [](https://github.com/pharo-rdbms/Pharo-SQLite3) and [](https://github.com/svenvc/P3), which use FFI to talk to C libraries. Adding new drivers for Duckdb or Databricks was beyond my level of Pharo experience and would take time away from exploring the underlying data and turning the knowledge gained there into domain-specific tools that provide value. "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-10T09:48:12.376914-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-10T09:49:18.220978-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "b7vkks7uDQCA6le4D4l6MA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "There are a couple of paths that didn't involve FFI that were useful enough that I used them on several projects over the course of many months. "
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-04-10T09:52:02.201462-04:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-04-10T09:57:54.140591-04:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "1o+XoM7uDQCFNQy1D4l6MA=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "I have been programming in Python for a very, very long time -- with most of that in service of databases. As you should know from the GT Book, {{gtPage:PythonBridge|db=2j9m7db2i4oz116bexd7wbdxo}} is built into GT. It manages a python environment that is directly accessable (via network protocols) to GT, including transparent interoperability between GT objects and Python objects. This has been an area of active development by Feenk and there are now (in 2025) several videos and pages for this kind of interaction. "
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-04-10T09:58:04.071262-04:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-04-10T10:06:39.244343-04:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "WEUpts7uDQCVMGqYD4l6MA=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "You can fire up a Python object that knows how to query databases, get the data into a common format (like Python dicts which are Pharo Dictionaries). Then you can build out domain-specific tools using GT. An advantage of this technique is that for many projects, I could build out Python tools (secure access libraries, data access libraries, etc.) as part of a formal deliverable and then use those to get data into GT. The down side (at least a few years ago when PythonBridge was less mature), it took a lot of fiddling both inside GT and in the external python environment to get everything set up. So, for projects that didn't specifically mandate python, or where I just wanted the least complex option, I still experimented. "
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-10T09:51:44.177248-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-10T09:51:59.84552-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "AIuEn87uDQCEmkByD4l6MA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "####PythonBridge built into GT"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-04-10T09:52:26.492724-04:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-04-10T10:11:40.637557-04:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "uDsKos7uDQCGGeNKD4l6MA=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "An option that didn't require as much coordination inside GT is to just build a Python (or whatever) process to serve web requests about the data. This is very straight-forward with frameworks like [FastAPI](https://fastapi.tiangolo.com/). Same thing with frameworks in Javascript, Go, etc. I used some of these on client projects, especially where this kind of capability was part of the deliverables. At one time, I took a sidetrack down the road of [Jupyter Kernel Gateway](https://jupyter-kernel-gateway.readthedocs.io/en/latest/) that turns Jupyter notebooks into API servers. With any of these options, on the GT side, the Access Object is built around {{gtClass:name=ZnClient}}. Of course, this method adds complexity and forces me to spend time **outside** of GT, which was the opposite of what I wanted. "
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-10T09:52:04.536362-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-10T09:52:25.419117-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "kTG7oM7uDQCFPpVJD4l6MA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "####Build a separate \"data server\" process"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-04-10T10:11:44.809384-04:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-04-10T10:17:01.344995-04:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "ZLoU587uDQC0Pv+FD4l6MA=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "A final alternative worth mentioning are systems like the [Amazon Redshift Data API](https://docs.aws.amazon.com/redshift/latest/mgmt/data-api.html) and the [RDS Data API](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/data-api.html). These have a variety of access methods (CLI, http requests, SDKs) but in general, you can submit queries and receive structured output in return. That is GT's wheelhouse, so that worked well. However, that technique is very targeted to specific AWS resources. I wanted something more general. "
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-10T09:52:28.64181-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-10T09:52:44.156063-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "EQYros7uDQCGIvuND4l6MA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "####Use an API specific to a data source"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-10T09:48:06.406301-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-10T09:48:11.761615-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "95+Jks7uDQCAmul5D4l6MA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "###Alternatives"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-10T10:23:18.855461-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-10T10:29:31.747379-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "egtzEM/uDQCgVQDfB07zdA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "The environments that I work in tend to involve \"big data\", so data warehouses like Redshift, Snowflake, Databricks, Duckdb. So, absolute speed for a single query is not that important. In Redshift, if my query summarizes over a few billion rows, then it might take 5 seconds or longer to return output. So, an additional 200 miliseconds of overhead from my interface (data server, CLI, whatever) doesn't matter. If I needed to have the least amount of latency possible, then I would use or write an FFI-based system that is going to operate at C or Rust speeds. My focus is on understading the data and building domain-specific tools. It doesn't usually matter to me whether my query takes 2 seconds or 3 seconds to run, but for other needs, that might matter a lot."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-10T10:23:04.093119-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-10T10:23:18.308318-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "JceRD8/uDQCf6JG5B07zdA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "####Note on my needs"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-10T10:17:34.824394-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-10T10:22:12.196433-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "N43x+87uDQCR6q4UB07zdA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "During several years of getting data into GT using the methods described above, I also wrote various command line tools. I used the Duckdb CLI to query data and dump the output to a file. Then I followed some GT examples for {{gtClass:name=GtSubprocessWithInMemoryOutput}} to be able to call a CLI and use its output directly. This was very straight-forward. I could configure the location of the Duckdb CLI or the SQLite CLI or `psql` inside GT and use  {{gtClass:name=GtSubprocessWithInMemoryOutput}} to get structured output. The main downside was having to maintain multiple flavors that knew the quirks of each CLI. Then I found [usql](https://github.com/xo/usql)"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-10T10:22:14.179045-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-10T10:38:10.622174-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Qx6YDM/uDQCe37fnB07zdA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[usql](https://github.com/xo/usql) is a single-binarygolang CLI that supports dozens of \"drivers\". If there is a golang driver for your data source, then it can be compiled into `usql`. Drivers for many common databases are compiled into the standard distribution. "
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-10T10:32:51.19156-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-10T10:33:58.634189-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "8C+QMs/uDQC5Q5qnB07zdA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "`usql` is not a SQL translator, so there are still different flavors of SQL or database commands depending on the database, but the **interface** for interacting with the database is standard. "
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-10T10:34:43.784739-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-10T10:37:46.163555-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "ZjpGOc/uDQC9Zwu5B07zdA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "A recent GT innovation is {{gtClass:name=GtShellScriptProcess}} which seems to be easier to set up and use than {{gtClass:name=GtSubprocessWithInMemoryOutput}}. I have been using {{gtClass:name=GtShellScriptProcess}} for several months with `usql` so that is what we'll use here for this public repo. "
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-10T10:11:46.828174-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-10T10:17:18.041838-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "lIgz587uDQC0ReBsD4l6MA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "###Settling on usql"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-04-10T09:28:46.341687-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-04-10T09:28:46.341687-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Why a CLI as a database driver"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "0075644d-ceee-0d00-acfb-9fc405b2bda2"
+	}
+}

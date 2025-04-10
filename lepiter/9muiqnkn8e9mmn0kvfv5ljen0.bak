@@ -10,7 +10,7 @@
 					"__type" : "snippets",
 					"items" : [
 						{
-							"__type" : "textSnippet",
+							"__type" : "pharoSnippet",
 							"children" : {
 								"__type" : "snippets",
 								"items" : [ ]
@@ -23,7 +23,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-04-10T09:28:20.60565-04:00"
+									"dateAndTimeString" : "2025-04-10T09:10:31.189304-04:00"
 								}
 							},
 							"editEmail" : {
@@ -34,17 +34,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-04-10T09:28:34.362524-04:00"
+									"dateAndTimeString" : "2025-04-10T09:10:45.039787-04:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "TbzbS87uDQCsMROABbK9og=="
+								"uidString" : "QsAdDM7uDQCfFgydBbK9og=="
 							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "[[Why a CLI as a database driver]]"
+							"code" : "Metacello new\n\trepository: 'github://chasets/GtDb:main/src';\n\tbaseline: 'GtDb';\n\tload.\r\t\r#BaselineOfGtDb asClass loadLepiter"
 						}
 					]
 				},
@@ -56,7 +53,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-10T09:06:35.917301-04:00"
+						"dateAndTimeString" : "2025-04-10T09:08:12.809342-04:00"
 					}
 				},
 				"editEmail" : {
@@ -67,17 +64,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-10T09:06:43.377938-04:00"
+						"dateAndTimeString" : "2025-04-10T09:10:24.264734-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "5bwX/s3uDQCa5XPdBbK9og=="
+					"uidString" : "NqHF/s3uDQCbMJX3BbK9og=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Introduction]]"
+				"string" : "This is a database \"driver\" package intended to be use with [GtDb](https://github.com/chasets/GtDb). There isn't a formal dependency established currently, so load GtDb with"
 			},
 			{
 				"__type" : "textSnippet",
@@ -93,7 +90,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-10T10:38:28.590803-04:00"
+						"dateAndTimeString" : "2025-04-10T09:10:56.560082-04:00"
 					}
 				},
 				"editEmail" : {
@@ -104,17 +101,54 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-10T10:38:38.605393-04:00"
+						"dateAndTimeString" : "2025-04-10T09:11:40.583557-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "7X6sRs/uDQCBkBiJB07zdA=="
+					"uidString" : "3t2gDc7uDQCfPbB+BbK9og=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Setting up usql]]"
+				"string" : "We'll refer to the GtDb lepiter pages throughout. {{gtPage:GtDB ToC|db=c6vosa94xu045wyfcxoi43mps}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-10T09:11:42.232678-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-10T09:13:31.380586-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "rsdZEM7uDQCgUKtVBbK9og=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "As we see in the GtDb examples, a Config object will point to  a `databaseDriverClassname`. "
 			},
 			{
 				"__type" : "textSnippet",
@@ -135,7 +169,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-03-24T11:52:16.972-04:00"
+									"dateAndTimeString" : "2025-04-10T09:22:26.873795-04:00"
 								}
 							},
 							"editEmail" : {
@@ -146,17 +180,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-03-24T11:52:36.638-04:00"
+									"dateAndTimeString" : "2025-04-10T09:24:08.144289-04:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "iNMmU3rtDQC0MSKBBjHszQ=="
+								"uidString" : "FjrGNs7uDQCjfi6cBbK9og=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[Set up a home card]]"
+							"string" : "a `query` method that returns an OrderedCollection of Dictionaries representing the query output. This output is used to populate GtDbRows objects"
 						},
 						{
 							"__type" : "textSnippet",
@@ -172,7 +206,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-03-24T11:52:23.797-04:00"
+									"dateAndTimeString" : "2025-04-10T09:24:08.606065-04:00"
 								}
 							},
 							"editEmail" : {
@@ -183,17 +217,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-03-24T11:52:23.797-04:00"
+									"dateAndTimeString" : "2025-04-10T09:28:00.814792-04:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "IAG7U3rtDQC0tvgWBjHszQ=="
+								"uidString" : "FYrWPM7uDQCnH0L2BbK9og=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "an `informationSchemaSqlClassname` method that identifies a class that will provide sql to used to populate {{gtClass:name=GtDbInformationSchemaRows}} objects. The provided InformationSql classes are subclasses of {{gtClass:name=InformationSchemaSql}}. "
 						}
 					]
 				},
@@ -205,7 +239,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-03-24T11:52:10.549-04:00"
+						"dateAndTimeString" : "2025-04-10T09:22:12.639857-04:00"
 					}
 				},
 				"editEmail" : {
@@ -216,128 +250,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-03-24T11:52:13.096-04:00"
+						"dateAndTimeString" : "2025-04-10T09:22:26.305668-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "kGiKUnrtDQCz2NClBjHszQ=="
+					"uidString" : "nQjtNc7uDQCisUVGBbK9og=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Admin]]"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-03-24T11:51:58.27-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-03-24T11:51:58.27-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "MII1UnrtDQCz11nJBjHszQ=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-03-24T11:51:57.091-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-03-24T11:51:57.091-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "uIQjUnrtDQCz1gj6BjHszQ=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-03-24T11:51:12.377-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-03-24T11:51:12.377-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "qDx5T3rtDQCz1VX7BjHszQ=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
+				"string" : "This driver object needs to provide:"
 			}
 		]
 	},
@@ -349,7 +272,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-03-24T11:51:12.341-04:00"
+			"dateAndTimeString" : "2025-04-10T09:06:47.26315-04:00"
 		}
 	},
 	"editEmail" : {
@@ -360,15 +283,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-03-24T11:51:40.341-04:00"
+			"dateAndTimeString" : "2025-04-10T09:06:47.26315-04:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "GtDbUsql ToC"
+		"title" : "Introduction"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "08b0784f-7aed-0d00-b3d4-54570631eccd"
+		"uuid" : "dce9c4fe-cdee-0d00-9b2f-64d005b2bda2"
 	}
 }
