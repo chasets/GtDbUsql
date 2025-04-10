@@ -20,6 +20,24 @@ GtDbUsqlScriptProcess >> databaseConfig: anObject [
 ]
 
 { #category : #'as yet unclassified' }
+GtDbUsqlScriptProcess >> drivers [
+	self exec: self driversScript.
+	^ self resultsOutput lines allButFirst
+]
+
+{ #category : #script }
+GtDbUsqlScriptProcess >> driversScript [
+	^ self databaseConfig commandPath , ' --command ''\drivers'''
+]
+
+{ #category : #util }
+GtDbUsqlScriptProcess >> exec: aUsqlScript [ 
+	| shellScriptProcess |
+	shellScriptProcess := GtShellScriptProcess new script: aUsqlScript.
+	results := shellScriptProcess execute.
+]
+
+{ #category : #util }
 GtDbUsqlScriptProcess >> resultsOutput [
 	[results isFailure not and: [results output size = 0]] whileTrue: [0.25 seconds wait] .
 	results isFailure ifTrue: [self error: results  stateDescription, ' - see the results object'].
@@ -27,13 +45,13 @@ GtDbUsqlScriptProcess >> resultsOutput [
 	^ output
 ]
 
-{ #category : #accessing }
+{ #category : #util }
 GtDbUsqlScriptProcess >> version [
-	| shellScriptProcess script|
-	script := self databaseConfig commandPath, ' --version'.
-	
-	shellScriptProcess := GtShellScriptProcess new script: script.
-
-	results := shellScriptProcess execute.
+	self exec: self versionScript.
 	^ self resultsOutput
+]
+
+{ #category : #script }
+GtDbUsqlScriptProcess >> versionScript [
+	^ self databaseConfig commandPath , ' --version'.
 ]
