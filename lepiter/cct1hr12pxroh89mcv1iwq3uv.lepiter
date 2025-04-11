@@ -74,6 +74,40 @@
 					"uidString" : "zD6QYuLuDQCyt7rwBw200A=="
 				},
 				"code" : "dbConfig := GtDbUsqlSqliteChinookConfig new .\rGtDbInformationSchemaCatalogs new databaseConfig: dbConfig; retrieve"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-11T09:53:10.4128-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-11T10:04:47.839367-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "eMZ/wuLuDQC6GlqGBw200A=="
+				},
+				"code" : "GtDbInformationSchemaTables new databaseConfig: dbConfig; catalogName: 'main'; schemaName: 'main'; retrieve"
 			}
 		]
 	},

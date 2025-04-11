@@ -37,6 +37,14 @@ GtDbUsqlScriptProcess >> exec: aUsqlScript [
 	results := shellScriptProcess execute.
 ]
 
+{ #category : #util }
+GtDbUsqlScriptProcess >> fixQuotingFor: aUsqlScript [ 
+	"Since this is a shell process, it has quoting rules like a shell. Users of this module should pass SQL around as normal, that is with single quotes for string literals inside the query. So here, we need to do 2 things: (1) escape any double quotes with a backslash, and (2) wrap the whole string in double quotes"
+	| escapedDoubleQuotes |
+	escapedDoubleQuotes := aUsqlScript copyReplaceAll: '"' with: '\"'.
+	^ escapedDoubleQuotes surroundedBy: '"'
+]
+
 { #category : #'as yet unclassified' }
 GtDbUsqlScriptProcess >> query: sqlString [
 	^ self queryWithStructuredResults: sqlString
@@ -61,10 +69,12 @@ GtDbUsqlScriptProcess >> resultsOutput [
 
 { #category : #'as yet unclassified' }
 GtDbUsqlScriptProcess >> sqlScriptFor: sql [
-	| commandPath usqlConnection |
+	"Since this is for a shell process, it has quoting rules like a shell. Users of this module should pass SQL around as normal, that is, with single quotes for string literals inside the query. We pass the sql script to self fixQuotingFor: to take care of this."
+	| quotedSql commandPath usqlConnection |
+	quotedSql := self fixQuotingFor: sql.
 	commandPath := self databaseConfig commandPath. 
 	usqlConnection := self databaseConfig usqlConnection. 
-	^ commandPath, ' ',  usqlConnection, ' --json --quiet --command ', sql surroundedBySingleQuotes.
+	^ commandPath, ' ',  usqlConnection, ' --json --quiet --command ', quotedSql.
 ]
 
 { #category : #util }
