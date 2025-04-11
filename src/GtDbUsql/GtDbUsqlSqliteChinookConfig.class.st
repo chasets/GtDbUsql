@@ -5,6 +5,11 @@ Class {
 }
 
 { #category : #'as yet unclassified' }
+GtDbUsqlSqliteChinookConfig >> informationSchemaSqlClassname [
+	^ 'InformationSchemaSqliteSql'
+]
+
+{ #category : #'as yet unclassified' }
 GtDbUsqlSqliteChinookConfig >> usqlConnection [
 	^ 'gt_chinook'
 ]
