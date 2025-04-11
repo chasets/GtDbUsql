@@ -215,6 +215,43 @@
 				"string" : "Now everything is in place to create a GtDbRows object. All we need is to make sure our config has a  `databaseDriverClassname` that points to `GtDbUsqlScriptProcess`"
 			},
 			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-11T09:23:33.036423-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-11T09:23:33.036423-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "N1ISNNTuDQClsyy1DMicrQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			},
+			{
 				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
@@ -239,14 +276,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-11T09:24:46.201861-04:00"
+						"dateAndTimeString" : "2025-04-10T16:29:54.001612-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "m+9jL9TuDQCchR7BAfReVw=="
 				},
-				"code" : "dbConfig := GtDbUsqlSqliteChinookConfig new .\rGtDbRows new databaseConfig: dbConfig; query: 'select * from album'"
+				"code" : "GtDbRows new databaseConfig: dbConfig; query: 'select * from album'"
 			}
 		]
 	},

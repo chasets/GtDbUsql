@@ -25,6 +25,11 @@ GtDbUsqlConfig >> configTree [
 ]
 
 { #category : #'as yet unclassified' }
+GtDbUsqlConfig >> databaseDriverClassname [
+	^ 'GtDbUsqlScriptProcess'
+]
+
+{ #category : #'as yet unclassified' }
 GtDbUsqlConfig >> gtConfigFor: aView [
 	<gtView>
 	^ aView forward

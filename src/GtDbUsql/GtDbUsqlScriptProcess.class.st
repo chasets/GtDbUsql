@@ -37,12 +37,34 @@ GtDbUsqlScriptProcess >> exec: aUsqlScript [
 	results := shellScriptProcess execute.
 ]
 
+{ #category : #'as yet unclassified' }
+GtDbUsqlScriptProcess >> query: sqlString [
+	^ self queryWithStructuredResults: sqlString
+]
+
+{ #category : #'as yet unclassified' }
+GtDbUsqlScriptProcess >> queryWithStructuredResults: sqlString [
+	| sqlScript structuredResults |
+	sqlScript := self sqlScriptFor: sqlString.
+	self exec: sqlScript.
+	structuredResults := STONJSON fromString: self resultsOutput.
+	^ structuredResults
+]
+
 { #category : #util }
 GtDbUsqlScriptProcess >> resultsOutput [
 	[results isFailure not and: [results output size = 0]] whileTrue: [0.25 seconds wait] .
 	results isFailure ifTrue: [self error: results  stateDescription, ' - see the results object'].
 	output := results output.
 	^ output
+]
+
+{ #category : #'as yet unclassified' }
+GtDbUsqlScriptProcess >> sqlScriptFor: sql [
+	| commandPath usqlConnection |
+	commandPath := self databaseConfig commandPath. 
+	usqlConnection := self databaseConfig usqlConnection. 
+	^ commandPath, ' ',  usqlConnection, ' --json --quiet --command ', sql surroundedBySingleQuotes.
 ]
 
 { #category : #util }
