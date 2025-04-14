@@ -62,7 +62,7 @@ GtDbUsqlScriptProcess >> queryWithStructuredResults: sqlString [
 { #category : #util }
 GtDbUsqlScriptProcess >> resultsOutput [
 	[results isFailure not and: [results output size = 0]] whileTrue: [0.25 seconds wait] .
-	results isFailure ifTrue: [self error: results  stateDescription, ' - see the results object'].
+	results isFailure ifTrue: [self error: (results stderr text asString), ' - see the results object for additional context'].
 	output := results output.
 	^ output
 ]
