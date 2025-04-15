@@ -59,9 +59,20 @@ GtDbUsqlScriptProcess >> queryWithStructuredResults: sqlString [
 	^ structuredResults
 ]
 
+{ #category : #'as yet unclassified' }
+GtDbUsqlScriptProcess >> queryWithoutResults: sqlString [
+	| sqlScript |
+	sqlScript := self sqlScriptFor: sqlString.
+	self exec: sqlScript.
+	"isRunning doesn't include the #new state, so if it runs fast enough then you miss it"
+	[results state = #ran] whileFalse: [0.25 seconds wait].
+	results isFailure ifTrue: [self error: (results stderr text asString), ' - see the results object for additional context'].
+]
+
 { #category : #util }
 GtDbUsqlScriptProcess >> resultsOutput [
-	[results isFailure not and: [results output size = 0]] whileTrue: [0.25 seconds wait] .
+	"isRunning doesn't include the #new state, so if it runs fast enough then you miss it, so have to check the state directly - TSC April 2025"
+	[results state = #ran] whileFalse: [0.25 seconds wait].
 	results isFailure ifTrue: [self error: (results stderr text asString), ' - see the results object for additional context'].
 	output := results output.
 	^ output
