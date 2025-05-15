@@ -23,6 +23,11 @@ BaselineOfGtDbUsql class >> loadLepiter [
 BaselineOfGtDbUsql >> baseline: spec [
 	<baseline>
 		^ spec for: #common do: [
+			spec baseline: 'GtDb'
+        	with: [ spec repository: 'github://chasets/GtDb:main' ].
+
+			
 			spec package: 'GtDbUsql'
+			with: [ spec requires: #('GtDb') ]
 		]
 ]
