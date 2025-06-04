@@ -1,6 +1,10 @@
 Class {
 	#name : #GtDbUsqlConfig,
 	#superclass : #Object,
+	#instVars : [
+		'usqlConnection',
+		'databaseConfig'
+	],
 	#category : #'GtDbUsql-Config'
 }
 
@@ -22,6 +26,17 @@ GtDbUsqlConfig >> configFile [
 { #category : #'as yet unclassified' }
 GtDbUsqlConfig >> configTree [
 	^ YAML2JSON fromFile: self configFile
+]
+
+{ #category : #accessing }
+GtDbUsqlConfig >> databaseConfig [
+	databaseConfig ifNil: [databaseConfig := self].
+	^ databaseConfig
+]
+
+{ #category : #accessing }
+GtDbUsqlConfig >> databaseConfig: anObject [
+	databaseConfig := anObject
 ]
 
 { #category : #'as yet unclassified' }
@@ -51,5 +66,10 @@ GtDbUsqlConfig >> gtConfigTreeFor: aView [
 
 { #category : #accessing }
 GtDbUsqlConfig >> usqlConnection [
-	self subclassResponsibility
+	^ usqlConnection
+]
+
+{ #category : #accessing }
+GtDbUsqlConfig >> usqlConnection: anObject [
+	usqlConnection := anObject
 ]
