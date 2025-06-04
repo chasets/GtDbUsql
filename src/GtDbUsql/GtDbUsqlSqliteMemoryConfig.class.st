@@ -1,6 +1,6 @@
 Class {
 	#name : #GtDbUsqlSqliteMemoryConfig,
-	#superclass : #GtDbUsqlConfig,
+	#superclass : #GtDbUsqlSqliteConfig,
 	#category : #'GtDbUsql-Config'
 }
 
